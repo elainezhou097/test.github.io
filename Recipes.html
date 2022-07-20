@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Calligraffitti">
+	<title>Recipes</title>
+	<style type="text/css">
+      .button3 {
+  background-color: lightskyblue; 
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.button2 {padding: 6px 28px;}
+
+
+		.backgroundRec{
+			padding-left: 2em;
+		}
+		.check{
+			float:left;
+			height: 300px;
+			width:300px;
+			background-color: antiquewhite;
+		}
+
+		.set{
+			float:left;
+			height: 400px;
+			width:400px;
+		}
+	    .button {
+            background-color: #4CAF50;
+            border: none;
+            color: white;
+            padding: 15px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            cursor: pointer;
+        }
+		ul {
+		 	list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #333;
+            
+        }
+
+       li {
+           float: right;
+           
+       }
+
+       li a {
+           display: block;
+           color: white;
+           text-align: center;
+           padding: 14px 16px;
+           text-decoration: none;
+      }
+
+        li a:hover:not(.active) {
+           background-color: grey;
+
+      }
+
+       .active {
+           background-color: #8A9A5B;
+      }
+
+
+	</style>
+    
+
+    
+</head>
+<body>
+	
+  
+  <ul>
+  <li style="float:left; font-family: Calligraffitti;color: #FFFF8F; font-size: 30px;"><b>Recipe of Traditional Food</b></li>
+  
+  <li><a href="Videos.html">All videos</a></li>
+  <li><a href="Tools&Tips.html">Tools&Tips</a></li>
+  <li><a href="Chefs.html">Chefs</a></li>
+  <li><a href="About Us.html">About Us</a></li>
+  <li><a class="active" href="Recipes.html">Recipes</a></li>
+  <li><a href="index.html">Homepage</a></li>
+  
+   </ul>
+   
+   <div class="backgroundRec">
+   	<br>
+   	<a href="javascript:history.back()" style="font-size:20px"> &laquo;Go Back To Cuisine</a>
+      <div>
+   <h1 style="color: #8A9A5B;">Recipes:</h1>
+   <button onclick="location.href='Add.html'" type="button" style="float:right; padding-right:20px" class="button3 button2">
+  + Add A Recipe
+</button>
+</div>
+<br><br>
+   <div class="check">
+   	<p>Types:</p>
+   	<form >
+    <input type="checkbox" id="type1" name="type1" value="Main Dish">
+    <label for="type1"> Main Dish</label><br>
+  <input type="checkbox" id="type2" name="type2" value="Desserts">
+  <label for="type2"> Desserts</label><br>
+  <input type="checkbox" id="type3" name="type3" value=" Drinks">
+  <label for="type3"> Drinks</label><br>
+  <input type="checkbox" id="type4" name="type4" value="Salad">
+  <label for="type4"> Salad</label><br>
+  <input type="checkbox" id="type5" name="type5" value="Soup">
+  <label for="type5"> Soup</label><br><br>
+
+  
+</form>
+   </div>
+
+
+   <div class="check">
+   	<p>Allergies:</p>
+   	<form >
+    <input type="checkbox" id="allergie1" name="allergie1" value="Peanut-free">
+    <label for="allergie1"> Peanut-free</label><br>
+  <input type="checkbox" id="allergie2" name="allergie2" value="Seafood-free">
+  <label for="allergie2"> Seafood-free</label><br>
+  <input type="checkbox" id="allergie3" name="allergie3" value=" Soy-free">
+  <label for="allergie3"> Soy-free</label><br>
+  <input type="checkbox" id="allergie4" name="allergie4" value="Egg-free">
+  <label for="allergie4"> Egg-free</label><br>
+  <input type="checkbox" id="allergie5" name="allergie5" value="Dairy-free">
+  <label for="allergie5"> Dairy-free</label><br><br>
+
+</form>
+   </div>
+
+
+   <div class="check">
+   	<p>Ingredients:</p>
+   	<form >
+    <input type="checkbox" id="ingrefient1" name="ingrefient1" value="Beef">
+    <label for="ingrefient1"> Beef</label><br>
+  <input type="checkbox" id="ingrefient2" name="ingrefient2" value="Pork">
+  <label for="ingrefient2"> Pork</label><br>
+  <input type="checkbox" id="ingrefient3" name="ingrefient3" value="Chicken">
+  <label for="ingrefient3"> Chicken</label><br>
+  <input type="checkbox" id="ingrefient4" name="ingrefient4" value="Potatoes">
+  <label for="ingrefient4"> Potatoes</label><br>
+  <input type="checkbox" id="ingrefient5" name="ingrefient5" value="Tomatoes">
+  <label for="ingrefient5"> Tomatoes</label><br>
+  <input type="checkbox" id="ingrefient6" name="ingrefient6" value="Eggplant">
+  <label for="ingrefient6"> Eggplant</label><br>
+  <input type="checkbox" id="ingrefient7" name="ingrefient7" value="Egg">
+  <label for="ingrefient7"> Egg</label><br>
+  <input type="checkbox" id="ingrefient8" name="ingrefient8" value="Shrimp">
+  <label for="ingrefient8"> Shrimp</label><br><br>
+
+</form>
+   </div>
+
+   <div class="check">
+   	<p>Cooking Skills:</p>
+   	<form >
+    <input type="checkbox" id="skill1" name="skill1" value="Beginner">
+    <label for="skill1"> Beginner</label><br>
+  <input type="checkbox" id="skill2" name="skill2" value="Intermediate">
+  <label for="skill2"> Intermediate</label><br>
+  <input type="checkbox" id="skill3" name="skill3" value="Advanced">
+  <label for="skill3"> Advanced</label><br><br>
+
+  <!--<input type="submit" value="Submit">-->
+  </form>
+  
+  <br><br><br><br>
+
+  
+  <a href="#" class="button" style="text-align: center;">Done</a>
+  <br><br><br>
+   </div>
+
+   
+
+
+   <div class="set">
+   	<br><br><br>
+   	<a href="Food1.html">
+   		<img src="food1.png">
+   	</a>
+   	<p><a href="Food1.html">
+   		Fluffy French Toast
+   		</a>
+   	</p>
+   	<p>
+   	Time:20mins &emsp; Calories: 590 &emsp; Rating:**** 
+   	</p>
+   	
+   </div>
+
+   <div class="set">
+   	<br><br><br>
+   	<a href="#">
+   		<img src="food2.png">
+   	</a>
+   	<p><a href="#">
+   		Honey-Garlic Slow Cooker Chicken Thighs
+   		</a>
+   	</p>
+   	<p>
+   	Time:6hrs &emsp; Calories: 990 &emsp; Rating:***** 
+   	</p>
+   	
+   </div>
+
+
+<div class="set">
+   	<br><br><br>
+   	<a href="#">
+   		<img src="food3.png">
+   	</a>
+   	<p><a href="#">
+   		Homemade Miso Soup
+
+   		</a>
+   	</p>
+   	<p>
+   	Time:10mins &emsp; Calories: 220 &emsp; Rating:***** 
+   	</p>
+   	
+   </div>
+
+
+
+
+
+   </div>
+
+</body>
+</html>
